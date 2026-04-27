@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Portfolio - Ghassen Ben Hassan" />
+  <meta name="author" content="Ghassen Ben Hassan" />
+  <title>Ghassen Ben Hassan | Portfolio Data</title>
+
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+
+  <style>
+    .lang-switch {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      z-index: 9999;
+    }
+
+    .lang-switch button {
+      border: none;
+      padding: 7px 12px;
+      border-radius: 6px;
+      margin-left: 5px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .lang-switch .active {
+      background: #f4623a;
+    }
+
+    .lang-switch .inactive {
+      background: #444;
+    }
+  </style>
+</head>
+
+<body id="page-top">
+
+  <!-- Switch langue -->
+  <div class="lang-switch">
+    <button class="active" onclick="setLang('fr', this)">FR</button>
+    <button class="inactive" onclick="setLang('en', this)">EN</button>
+  </div>
+
+  <!-- Sidebar gauche -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <div class="sidebar-profile">
+        <img class="sidebar-photo" src="assets/img/profil.jpg" alt="Ghassen Ben Hassan" />
+        <div class="sidebar-name">Ghassen Ben Hassan</div>
+        <div class="sidebar-role">Data Analyst • BI • Data</div>
+
+        <div class="sidebar-social">
+          <a class="social-btn" href="https://www.linkedin.com/in/ghassen-ben-hassan" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a class="social-btn" href="https://github.com/Ghassen1956" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i>
+          </a>
+          <a class="social-btn" href="mailto:ghassenbenhassen@yahoo.fr">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-link" href="#page-top"><i class="bi bi-house"></i><span class="fr">Accueil</span><span class="en" style="display:none;">Home</span></a>
+        <a class="sidebar-link" href="#apropos"><i class="bi bi-person"></i><span class="fr">À propos</span><span class="en" style="display:none;">About</span></a>
+        <a class="sidebar-link" href="#competences"><i class="bi bi-graph-up"></i><span class="fr">Compétences</span><span class="en" style="display:none;">Skills</span></a>
+        <a class="sidebar-link" href="#cv"><i class="bi bi-file-earmark-text"></i><span>CV</span></a>
+        <a class="sidebar-link" href="#projets"><i class="bi bi-grid"></i><span class="fr">Projet</span><span class="en" style="display:none;">Projects</span></a>
+        <a class="sidebar-link" href="#contact"><i class="bi bi-envelope"></i><span>Contact</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <a class="btn-mini" href="assets/cv/Ghassen_Ben_Hassan_CV.pdf" download>
+          <i class="bi bi-download me-2"></i>
+          <span class="fr">Télécharger le CV</span>
+          <span class="en" style="display:none;">Download CV</span>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container px-4 px-lg-5 h-100">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-8 align-self-end">
+          <h1 class="text-white font-weight-bold fr">Bonjour, je suis Ghassen Ben Hassan</h1>
+          <h1 class="text-white font-weight-bold en" style="display:none;">Hello, I am Ghassen Ben Hassan</h1>
+          <hr class="divider" />
+        </div>
+
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 mb-4 fr">
+            Diplômé en sciences des données appliquées (La Cité). Je conçois des solutions orientées données :
+            bases SQL, analyses statistiques, projets Big Data et automatisation de processus.
+          </p>
+
+          <p class="text-white-75 mb-4 en" style="display:none;">
+            Graduate in Applied Data Science from La Cité. I design data-driven solutions:
+            SQL databases, statistical analysis, Big Data projects, and process automation.
+          </p>
+
+          <div class="d-flex gap-2 justify-content-center flex-wrap">
+            <a class="btn btn-light btn-xl" href="#competences">
+              <span class="fr">Voir mes compétences</span>
+              <span class="en" style="display:none;">View my skills</span>
+            </a>
+
+            <a class="btn btn-outline-light btn-xl" href="assets/cv/Ghassen_Ben_Hassan_CV.pdf" download>
+              <i class="bi bi-download me-2"></i>
+              <span class="fr">Télécharger mon CV</span>
+              <span class="en" style="display:none;">Download my CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- À propos -->
+  <section class="page-section bg-primary" id="apropos">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0 fr">À propos</h2>
+          <h2 class="text-white mt-0 en" style="display:none;">About</h2>
+          <hr class="divider divider-light" />
+
+          <p class="text-white-75 mb-4 fr">
+            Diplômé en sciences des données appliquées, je combine une expérience opérationnelle
+            avec l’analyse de données. Je transforme des données brutes en indicateurs et tableaux de bord
+            et j’automatise des processus avec Python et SQL.
+          </p>
+
+          <p class="text-white-75 mb-4 en" style="display:none;">
+            Graduate in Applied Data Science, I combine operational experience with data analysis.
+            I turn raw data into KPIs and dashboards and automate processes using Python and SQL.
+          </p>
+
+          <a class="btn btn-light btn-xl" href="#projets">
+            <span class="fr">Voir mes projets</span>
+            <span class="en" style="display:none;">View my projects</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section class="page-section" id="competences">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0 fr">Compétences</h2>
+      <h2 class="text-center mt-0 en" style="display:none;">Skills</h2>
+      <hr class="divider" />
+
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="bi-database fs-1 text-primary"></i>
+            <h3 class="h4 mb-2">SQL & Data</h3>
+            <p class="text-muted mb-0 fr">Modélisation, requêtes, structuration des données métier.</p>
+            <p class="text-muted mb-0 en" style="display:none;">Modeling, queries, and business data structuring.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="bi-bar-chart-line fs-1 text-primary"></i>
+            <h3 class="h4 mb-2">Analyse & KPI</h3>
+            <p class="text-muted mb-0 fr">Nettoyage, préparation, indicateurs et reporting.</p>
+            <p class="text-muted mb-0 en" style="display:none;">Cleaning, preparation, KPIs, and reporting.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="bi-clipboard-data fs-1 text-primary"></i>
+            <h3 class="h4 mb-2">BI</h3>
+            <p class="text-muted mb-0 fr">Tableaux de bord, visualisation, automatisation.</p>
+            <p class="text-muted mb-0 en" style="display:none;">Dashboards, visualization, and automation.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="bi-code-slash fs-1 text-primary"></i>
+            <h3 class="h4 mb-2">Python</h3>
+            <p class="text-muted mb-0 fr">Automatisation, ETL, scripts d’analyse.</p>
+            <p class="text-muted mb-0 en" style="display:none;">Automation, ETL, and analysis scripts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section class="page-section bg-light" id="cv">
+    <div class="container px-4 px-lg-5">
+      <div class="text-center">
+        <h2 class="mt-0">CV</h2>
+        <hr class="divider" />
+        <p class="text-muted mb-4 fr">Téléchargez mon CV complet.</p>
+        <p class="text-muted mb-4 en" style="display:none;">Download my full resume.</p>
+
+        <a class="btn btn-primary btn-xl" href="assets/cv/Ghassen_Ben_Hassan_CV.pdf" download>
+          <i class="bi bi-download me-2"></i>
+          <span class="fr">Télécharger le CV</span>
+          <span class="en" style="display:none;">Download CV</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section class="page-section" id="projets">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0 fr">Projets</h2>
+      <h2 class="text-center mt-0 en" style="display:none;">Projects</h2>
+      <hr class="divider" />
+
+      <div class="row gx-4 gx-lg-5">
+
+        <div class="col-lg-6 col-md-6 mb-4">
+          <a class="portfolio-box" href="projet-walmart.html" style="text-decoration:none;">
+            <img class="img-fluid" src="assets/img/portfolio/thumbnails/walmart.jpg"
+                 alt="Walmart Sales Forecast"
+                 style="width:100%; height:280px; object-fit:cover;" />
+          </a>
+
+          <h5 class="mt-3" style="color:#f4623a;">
+            <span class="fr">Prévision des ventes hebdomadaires Walmart</span>
+            <span class="en" style="display:none;">Walmart Weekly Sales Forecast</span>
+          </h5>
+        </div>
+
+        <div class="col-lg-6 col-md-6 mb-4">
+          <a class="portfolio-box" href="projet-python.html" style="text-decoration:none;">
+            <img class="img-fluid" src="assets/img/portfolio/thumbnails/Projet_python.jpg"
+                 alt="Order Management System"
+                 style="width:100%; height:280px; object-fit:cover;" />
+          </a>
+
+          <h5 class="mt-3" style="color:#f4623a;">
+            <span class="fr">Système de gestion de commandes — Python</span>
+            <span class="en" style="display:none;">Order Management System — Python</span>
+          </h5>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="page-section bg-dark text-white">
+    <div class="container px-4 px-lg-5 text-center">
+      <h2 class="mb-4 fr">Vous souhaitez collaborer ?</h2>
+      <h2 class="mb-4 en" style="display:none;">Interested in working together?</h2>
+
+      <div class="d-flex gap-2 justify-content-center flex-wrap">
+        <a class="btn btn-light btn-xl" href="#contact">
+          <span class="fr">Me contacter</span>
+          <span class="en" style="display:none;">Contact me</span>
+        </a>
+
+        <a class="btn btn-outline-light btn-xl" href="assets/cv/Ghassen_Ben_Hassan_CV.pdf" download>
+          <i class="bi bi-download me-2"></i>
+          <span class="fr">Télécharger mon CV</span>
+          <span class="en" style="display:none;">Download my CV</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="page-section" id="contact">
+    <div class="container px-4 px-lg-5 text-center">
+      <h2 class="mt-0">Contact</h2>
+      <hr class="divider" />
+
+      <p><strong>Email :</strong> ghassenbenhassen@yahoo.fr</p>
+      <p><strong>LinkedIn :</strong> www.linkedin.com/in/ghassen-ben-hassan</p>
+      <p><strong>GitHub :</strong> https://github.com/Ghassen1956</p>
+      <p><strong>Ottawa, Canada</strong></p>
+    </div>
+  </section>
+
+  <footer class="bg-light py-5">
+    <div class="container px-4 px-lg-5">
+      <div class="small text-center text-muted">Copyright &copy; 2026 - Ghassen Ben Hassan</div>
+    </div>
+  </footer>
+
+  <script>
+    function setLang(lang, btn) {
+      document.querySelectorAll(".fr").forEach(e => e.style.display = lang === "fr" ? "" : "none");
+      document.querySelectorAll(".en").forEach(e => e.style.display = lang === "en" ? "" : "none");
+
+      document.querySelectorAll(".lang-switch button").forEach(b => {
+        b.classList.remove("active");
+        b.classList.add("inactive");
+      });
+
+      btn.classList.remove("inactive");
+      btn.classList.add("active");
+
+      document.documentElement.lang = lang;
+    }
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>
